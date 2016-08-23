@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.camanfa.alarm.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical"
+   android:gravity="center"
+    android:background="#78909C"
+    android:weightSum="1">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+
+    android:layout_weight="0.62"
+    android:weightSum="1">
+
+    <TimePicker
+        android:layout_marginTop="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timePicker"
+        android:timePickerMode="spinner"
+        android:background="#78909C"
+        android:numbersBackgroundColor="#37474F"
+        android:numbersSelectorColor="#ffffff"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:layout_weight="1"
+        android:layout_gravity="center" />
+</LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Tekrar"
+                android:id="@+id/textView2"
+                android:textColor="#CFD8DC"
+                android:textSize="45sp"
+                />
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Asla"
+                android:id="@+id/txtGun"
+                android:textAlignment="textEnd"
+                android:background="#78909C"
+                android:textColor="#CFD8DC"
+                android:textSize="45sp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#37474F"
+
+         />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+      >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Alarm"
+                android:id="@+id/txtName"
+                android:textSize="45sp"
+                android:textAlignment="textEnd"
+                android:background="#78909C"
+                android:textColor="#CFD8DC" />
+            <TextView
+                android:layout_alignParentRight="true"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Isim"
+                android:textAlignment="textEnd"
+                android:id="@+id/txtIsim"
+                android:textColor="#CFD8DC"
+                android:textSize="45sp"/>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#37474F"
+       />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Zil Sesi"
+
+                android:id="@+id/textView6"
+                android:textSize="45sp"
+                android:textColor="#CFD8DC" />
+            <TextView
+                android:layout_alignParentRight="true"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Asla"
+                android:id="@+id/txtZil"
+                android:textAlignment="textEnd"
+                android:textColor="#CFD8DC"
+                android:textSize="45sp"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#37474F"
+       />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Oyun"
+                android:id="@+id/textView8"
+                android:textColor="#CFD8DC"
+                android:textSize="45sp"/>
+            <TextView
+                android:layout_alignParentRight="true"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Matematik"
+                android:id="@+id/txtOyun"
+                android:textAlignment="textEnd"
+                android:textColor="#CFD8DC"
+                android:textSize="45sp"/>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#37474F"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Zorluk"
+                android:id="@+id/txtZorluk"
+                android:textColor="#CFD8DC"
+                android:textSize="45sp"/>
+            <TextView
+                android:layout_alignParentRight="true"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Kolay"
+                android:id="@+id/txtZorlukDerecesi"
+                android:textAlignment="textEnd"
+                android:textColor="#CFD8DC"
+                android:textSize="45sp"/>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

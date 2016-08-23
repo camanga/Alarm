@@ -1,0 +1,256 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.camanfa.alarm.MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F7"
+        android:layout_marginTop="40dp"
+
+        >
+        <TimePicker
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/timePicker"
+            android:timePickerMode="spinner"
+
+
+            android:background="#F5F5F7"
+            android:numbersBackgroundColor="#37474F"
+            android:numbersSelectorColor="#ffffff"
+            />
+    </LinearLayout>
+    <View
+
+        android:layout_marginTop="295dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#37474F"
+
+        />
+    <LinearLayout
+        android:layout_marginTop="300dp"
+        android:background="#F5F5F7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#F5F5F7"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Tekrar"
+                    android:id="@+id/textView2"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    />
+
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Asla"
+                    android:id="@+id/txtGun"
+                    android:textAlignment="textEnd"
+
+                    android:textColor="#748193"
+                    android:textSize="25sp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <View
+
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#37474F"
+
+            />
+        <LinearLayout
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Alarm"
+                    android:id="@+id/txtName"
+                    android:textSize="25sp"
+                    android:textAlignment="textEnd"
+                    android:textColor="#000000" />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Isim"
+                    android:textAlignment="textEnd"
+                    android:id="@+id/txtIsim"
+                    android:textColor="#748193"
+                    android:textSize="25sp"/>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#37474F"
+            />
+        <LinearLayout
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Zil Sesi"
+
+                    android:id="@+id/textView6"
+                    android:textSize="25sp"
+                    android:textColor="#000000" />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Asla"
+                    android:id="@+id/txtZil"
+                    android:textAlignment="textEnd"
+                    android:textColor="#748193"
+                    android:textSize="25sp"
+                    />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <View
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#37474F"
+            />
+        <LinearLayout
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Oyun"
+                    android:id="@+id/textView8"
+                    android:textColor="#000000"
+                    android:textSize="25sp"/>
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Matematik"
+                    android:id="@+id/txtOyun"
+                    android:textAlignment="textEnd"
+                    android:textColor="#748193"
+                    android:textSize="25sp"/>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#37474F"
+            />
+        <LinearLayout
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Zorluk"
+                    android:id="@+id/txtZorluk"
+                    android:textColor="#000000"
+                    android:textSize="25sp"/>
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Kolay"
+                    android:id="@+id/txtZorlukDerecesi"
+                    android:textAlignment="textEnd"
+                    android:textColor="#748193"
+                    android:textSize="25sp"/>
+            </RelativeLayout>
+
+            <View
+android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#37474F"
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

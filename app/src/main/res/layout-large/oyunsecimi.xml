@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFD8DC">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/radioGroup"
+        android:background="#78909C">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matematik Oyunu"
+            android:id="@+id/rbButton"
+            android:textColor="#CFD8DC"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sayi siralama"
+            android:id="@+id/rbSayi"
+            android:textColor="#CFD8DC"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puzzle"
+            android:id="@+id/rbPuzzle"
+            android:textColor="#CFD8DC"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefon Salla"
+            android:id="@+id/rbSallama"
+            android:textColor="#CFD8DC"
+            android:textSize="40dp"
+            android:layout_marginTop="10dp" />
+    </RadioGroup>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.camanfa.alarm.Ayarlar.OyunSecimiFragment">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/radioGroup"
+       >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dört İşlem"
+            android:id="@+id/rbButton"
+
+            android:textSize="20dp"
+            android:layout_marginTop="10dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sayı Sıralama"
+            android:id="@+id/rbSayi"
+
+            android:textSize="20dp"
+            android:layout_marginTop="10dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puzzle"
+            android:id="@+id/rbPuzzle"
+
+            android:textSize="20dp"
+            android:layout_marginTop="10dp" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefon Salla"
+            android:id="@+id/rbSallama"
+
+            android:textSize="20dp"
+            android:layout_marginTop="10dp" />
+    </RadioGroup>
+
+</FrameLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:id="@+id/imgButton"
+        android:visibility="invisible"
+        android:src="@drawable/delete"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/txtSaat"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:textSize="50sp"
+        android:layout_alignBaseline="@+id/alarmswitch"
+        android:layout_alignBottom="@+id/alarmswitch"
+        android:layout_marginTop="10dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/txtAlarmName"
+
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="right">
+       <Switch
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:id="@+id/alarmswitch"
+           android:switchMinWidth="80dp"
+           android:checked="false"
+           android:layout_alignBottom="@+id/imgButton"
+           android:layout_alignParentEnd="true"
+
+           android:trackTint="#CFD8DC"/>
+   </LinearLayout>
+
+
+
+
+</LinearLayout>

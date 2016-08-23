@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="#607D8B"
+    android:layout_gravity="fill_horizontal"
+    style="@style/AppTheme.NoActionBar">
+
+    <TextView
+        android:id="@+id/imageView1"
+        android:text="Alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:textAlignment="center"
+
+        android:textSize="50dp"
+        android:textColor="#ECEFF1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Duzenle"
+        android:id="@+id/txtDuzenle"
+        android:textColor="#ECEFF1"
+        android:textSize="40dp"
+        android:textAlignment="textStart"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ekle"
+        android:id="@+id/txtEkle"
+        android:textColor="#ECEFF1"
+        android:textSize="40dp"
+        android:textAlignment="textEnd"
+        android:layout_alignTop="@+id/txtDuzenle"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

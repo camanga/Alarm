@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:columnCount="3"
+    android:rowCount="3"
+    android:rowOrderPreserved="false"
+    android:alignmentMode="alignBounds"
+    android:useDefaultMargins="true"
+    android:background="#78909C"
+    android:id="@+id/grdly">
+
+</GridLayout>
